@@ -1,0 +1,13 @@
+{
+    "name": "codespaces",
+    "version": "1.0.0",
+    "description": "all project on codespaces",
+    "author": {
+        "name": "kingslimes",
+        "email": "natontmp123@gmail.com",
+        "url": "https://github.com/kingslimes"
+    },
+    "dependencies": {
+        "typescript": "^5.9.3"
+    }
+}
