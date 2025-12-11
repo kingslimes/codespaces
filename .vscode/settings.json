@@ -1,0 +1,91 @@
+{
+    "editor.tabSize": 4,
+    "editor.fontSize": 16,
+    "chat.disableAIFeatures": true,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "editor.detectIndentation": false,
+    "css.lint.unknownAtRules": "ignore",
+    "editor.stickyScroll.enabled": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    // Load setting schema
+    "json.schemas": [],
+    "json.validate.enable": false,
+    "json.schemaDownload.enable": true,
+    // Prettire + Eslint Configure
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "[svelte]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "hb432.prettier-eslint-typescript"
+    },
+    "prettier-eslint-typescript.eslintConfig": {
+        "rules": {
+            "curly": "error",
+            "dot-notation": "error",
+            "no-undef-init": "error",
+            "no-useless-rename": "error",
+            "no-useless-return": "error",
+            "no-var": "error",
+            "object-shorthand": "error",
+            "one-var": [
+                "error",
+                {
+                    "initialized": "never",
+                    "uninitialized": "always"
+                }
+            ],
+            "prefer-const": "error",
+            "prefer-template": "error",
+            "array-bracket-spacing": [
+                "error",
+                "always"
+            ],
+            "space-in-parens": [
+                "error",
+                "always",
+                {
+                    "exceptions": [
+                        "{}",
+                        "[]",
+                        "()"
+                    ]
+                }
+            ],
+            "generator-star-spacing": [
+                "error",
+                "both"
+            ],
+            "space-before-function-paren": [
+                "error",
+                {
+                    "anonymous": "never",
+                    "named": "never",
+                    "asyncArrow": "always"
+                }
+            ],
+            "yield-star-spacing": [
+                "error",
+                "both"
+            ],
+            "space-before-blocks": [
+                "error",
+                "always"
+            ]
+        }
+    },
+    "prettier-eslint-typescript.prettierOptions": {
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "printWidth": 120,
+        "quoteProps": "as-needed",
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "none",
+        "useTabs": true,
+        "semi": true
+    }
+}
