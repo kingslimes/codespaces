@@ -1,6 +1,18 @@
 {
     "editor.tabSize": 4,
     "editor.fontSize": 16,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.crswap": true,
+        "**/node_modules": true,
+        "**/.vscode": true,
+        "**/bun.lock": true,
+        "**/package.json": true
+    },
     "chat.disableAIFeatures": true,
     "editor.minimap.enabled": false,
     "files.autoSave": "onFocusChange",
